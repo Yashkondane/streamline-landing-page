@@ -16,10 +16,12 @@ export default function Hero() {
         </p>
       </div>
       <div className="flex gap-4">
-        <Button size="lg" className="text-black">
-          <Download className="mr-2 h-4 w-4" />
-          Download Now
-        </Button>
+        <Button asChild>
+            <a href="/download/mainWin.exe" download>
+              <Download className="mr-2 h-4 w-4" />
+              Download Now
+            </a>
+          </Button>
         <Button variant="outline" size="lg">
           <Chrome className="mr-2 h-4 w-4" />
           See Complete Guide
