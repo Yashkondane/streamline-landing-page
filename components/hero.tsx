@@ -16,7 +16,7 @@ export default function Hero() {
         </p>
       </div>
       <div className="flex gap-4">
-        <Button size="lg" className="text-black">
+        <Button size="lg" className="text-white">
           <Download className="mr-2 h-4 w-4" />
           Download Code
         </Button>

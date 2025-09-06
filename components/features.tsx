@@ -2,26 +2,26 @@ import { Download, Settings, Chrome, CheckCircle } from "lucide-react"
 
 const installationSteps = [
   {
-    name: "Download Extension",
-    description: "Click the download button above to get the latest version of our Chrome extension (.crx file).",
+    name: "Download the EXE",
+    description: "CClick the download button above or clone the repository to get the latest executable file.",
     icon: Download,
     step: "Step 1",
   },
   {
-    name: "Enable Developer Mode",
-    description: "Open Chrome Settings > Extensions, then toggle 'Developer mode' in the top-right corner.",
+    name: "Install the Application",
+    description: "Run the downloaded .exe file and follow the on-screen setup instructions.",
     icon: Settings,
     step: "Step 2",
   },
   {
-    name: "Install Extension",
-    description: "Drag and drop the downloaded .crx file into the Chrome Extensions page to install.",
+    name: "Configure API Key",
+    description: "Add your Google API key in the configuration file (config.json) or set it as an environment variable.",
     icon: Chrome,
     step: "Step 3",
   },
   {
-    name: "Start Using",
-    description: "Pin the extension to your toolbar and start enjoying enhanced productivity features.",
+    name: "Launch and Verify",
+    description: "Open the application, verify the setup, and start using all available features.",
     icon: CheckCircle,
     step: "Step 4",
   },

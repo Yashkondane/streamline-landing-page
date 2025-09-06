@@ -31,9 +31,11 @@ export default function FeaturesPage() {
             <div className="order-2 lg:order-1">
               <Card className="h-full overflow-hidden rounded-xl border-border/40 bg-card/50 backdrop-blur">
                 <CardContent className="aspect-video p-0">
-                  <div className="flex h-full items-center justify-center bg-gradient-to-br from-blue-500/20 to-purple-500/20">
-                    <Brain className="h-16 w-16 text-blue-400" />
-                  </div>
+                  <img
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1-YWsBfb4MeKlTNqhjjmi7dAJ0EMsKYa.png"
+                    alt="Screen time categorization interface showing productive and neutral window categories"
+                    className="h-full w-full object-cover"
+                  />
                 </CardContent>
               </Card>
             </div>
@@ -94,9 +96,11 @@ export default function FeaturesPage() {
             <div>
               <Card className="h-full overflow-hidden rounded-xl border-border/40 bg-card/50 backdrop-blur">
                 <CardContent className="aspect-video p-0">
-                  <div className="flex h-full items-center justify-center bg-gradient-to-br from-orange-500/20 to-red-500/20">
-                    <Bell className="h-16 w-16 text-orange-400" />
-                  </div>
+                  <img
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2-KqYB3USUoxdC0GbrPXc9wLoR3JsCjf.png"
+                    alt="Productivity dashboard showing detailed reports and app usage statistics"
+                    className="h-full w-full object-cover"
+                  />
                 </CardContent>
               </Card>
             </div>
@@ -107,9 +111,11 @@ export default function FeaturesPage() {
             <div className="order-2 lg:order-1">
               <Card className="h-full overflow-hidden rounded-xl border-border/40 bg-card/50 backdrop-blur">
                 <CardContent className="aspect-video p-0">
-                  <div className="flex h-full items-center justify-center bg-gradient-to-br from-green-500/20 to-teal-500/20">
-                    <Focus className="h-16 w-16 text-green-400" />
-                  </div>
+                  <img
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/3-n67RMRNRmQfWQmzX8IP3SCx3ySW1cI.png"
+                    alt="Focus session notification showing stay focused message and productivity tracking"
+                    className="h-full w-full object-cover"
+                  />
                 </CardContent>
               </Card>
             </div>
