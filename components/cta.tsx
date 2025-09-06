@@ -13,9 +13,9 @@ export default function CTA() {
           tools.
         </p>
         <div className="flex gap-4 mt-4">
-          <Button size="lg">
+          <Button size="lg" className="text-white">
             <Download className="mr-2 h-4 w-4" />
-            Download Extension
+            Download Code
           </Button>
           <Button variant="outline" size="lg">
             <HelpCircle className="mr-2 h-4 w-4" />
