@@ -33,7 +33,7 @@ export default function Features() {
       <div className="mx-auto max-w-[58rem] text-center">
         <h2 className="font-bold text-3xl leading-[1.1] sm:text-3xl md:text-5xl">Installation Guide</h2>
         <p className="mt-4 text-muted-foreground sm:text-lg">
-          Follow these simple steps to install and start using our Chrome extension.
+          Follow these simple steps to install and start using our Application.
         </p>
       </div>
       <div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 md:grid-cols-2">
