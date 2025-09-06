@@ -9,11 +9,11 @@ export default function CTA() {
           Ready to enhance your browsing experience?
         </h2>
         <p className="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
-          Download our Chrome extension now and start tracking your activities with powerful insights and productivity
+          Download our Appplication now and start tracking your activities with powerful insights and productivity
           tools.
         </p>
         <div className="flex gap-4 mt-4">
-          <Button size="lg" className="text-white">
+          <Button size="lg" className="text-black">
             <Download className="mr-2 h-4 w-4" />
             Download Code
           </Button>

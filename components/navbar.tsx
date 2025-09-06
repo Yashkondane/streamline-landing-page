@@ -30,7 +30,7 @@ export default function Navbar() {
           <Button variant="ghost" size="sm">
             Help
           </Button>
-          <Button size="sm" className="text-white">
+          <Button size="sm" className="text-black">
             <Download className="mr-2 h-4 w-4" />
             Download
           </Button>

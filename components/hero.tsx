@@ -16,9 +16,9 @@ export default function Hero() {
         </p>
       </div>
       <div className="flex gap-4">
-        <Button size="lg" className="text-white">
+        <Button size="lg" className="text-black">
           <Download className="mr-2 h-4 w-4" />
-          Download Code
+          Download Now
         </Button>
         <Button variant="outline" size="lg">
           <Chrome className="mr-2 h-4 w-4" />
